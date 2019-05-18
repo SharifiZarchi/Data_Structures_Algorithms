@@ -1,0 +1,23 @@
+Goal
+
+The goal of Rust is to be a language suited to creating highly concurrent and highly safe systems,[15] and "programming in the large", that is, creating and maintaining boundaries that preserve large-system integrity.[16] This has led to a feature set with an emphasis on safety, control of memory layout, and concurrency. Performance of idiomatic Rust is comparable to the performance of idiomatic C++.[17][18]
+Syntax
+
+The syntax of Rust is similar to C and C++, with blocks of code delimited by curly brackets, and control flow keywords such as if, else, while, and for. Not all C or C++ keywords are implemented, however, while some Rust functionality (such as keyword match for multi-directional branching, similar to switch in other languages) will be less familiar to programmers coming from these languages. Despite the syntactic resemblance, Rust is semantically very different from C and C++, as it follows the "everything is an expression" doctrine, unlike C and C++, which have statements.
+
+Memory safety
+
+The system is designed to be memory safe, and it does not permit null pointers or dangling pointers.[19][20] Data values can only be initialized through a fixed set of forms, all of which require their inputs to be already initialized.[21] To replicate the functionality in other languages of pointers being either valid or NULL, such as in linked list or binary tree data structures, the Rust core library provides the Option parameterized type, which can be used to test if a pointer has Some value or None. Rust also introduces additional syntax to manage lifetimes, and the compiler reasons about these through its borrow checker.
+Polymorphism
+
+The type system supports a mechanism similar to type classes, called 'traits', inspired directly by the Haskell language. This is a facility for ad-hoc polymorphism, achieved by adding constraints to type variable declarations. Other features from Haskell, such as higher-kinded polymorphism, are not yet supported.
+Memory management
+
+Rust does not use an automated garbage collection system like those used by Go, Java or .NET Framework, but instead resource acquisition is initialization (RAII) and reference counting, as in C++.
+
+There is also a concept of reference (using a "&"), which allows safe access to allocated memory via the borrow checker, negating the need for a reference count.
+Miscellaneous
+
+Rust features type inference, for variables declared with the let keyword. Such variables do not require a value to be initially assigned to determine their type. A compile time error results if any branch of code fails to assign a value to the variable.[22] Functions can be given generic parameters, but they must be explicitly bounded by traits. There is no way to leave off type signatures while still making use of methods and operators on the parameters.
+
+The object system within Rust is based around implementations, traits and structured types. Implementations fulfill a role similar to that of classes within other languages, and are defined with the impl keyword. Inheritance and polymorphism are provided by traits; they allow methods to be defined and mixed in to implementations. Structured types are used to define fields. Implementations and traits cannot define fields themselves, and only traits can provide inheritance, to prevent the diamond problem of multiple inheritance, as in C++.
