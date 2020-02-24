@@ -1,0 +1,15 @@
+Creators of each lesson:
+- Comparison of Sorting Algorithms -> Arad Mohammadi
+- Basic Data Structures -> Arya Kowsary
+- Tree Storage and Traversal -> Alireza Akbari
+- BST -> Mohammadreza Ahmadkhaniha
+- Trie -> Rouzbeh Meshkin
+- Heap -> Pedram Khorsandi, Matin Khajavi
+- Binary Search -> Sadegh Mahdavi
+- K Select -> Erfan Farhadi
+- Hashing -> Alireza Mousavi
+- DSU -> Amir Mojtaba Sabour
+- Balanced BSTs -> Kiarash Banihashem
+- Segment Tree -> Amir Hossein Maleki
+- DFS and BFS -> Matin Khajavi
+- Topological Sort -> Alireza Akbari, Erfan Farhadi
