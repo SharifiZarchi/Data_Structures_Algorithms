@@ -65,6 +65,21 @@ def bucket_sort(A):
         A += k
     return A
 
+
+def merge_sort(A):
+    if len(A) < 2:
+        return A
+    mid = len(A)//2
+
+    B = A[mid:]
+    C = A[:mid]
+
+    B = merge_sort(B)
+
+    C = merge_sort(C)
+    return B, C
+
+
 if __name__ == '__main__':
     A = [5, 1, 1, 1, 2, 5, 3, 4, 4, 2, 3]
     print('counting sort',counting_sort(A))
@@ -80,3 +95,6 @@ if __name__ == '__main__':
 
     A = [29, 25, 9, 49, 3, 37, 21, 43]
     print('bucket sort', bucket_sort(A))
+
+    A = [12, 3, 15, -4, 7, 6, -1, 0, 11, 6]
+    print('merge sort', merge_sort(A))
