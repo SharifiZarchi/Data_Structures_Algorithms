@@ -77,6 +77,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 .virtual_documents
 
 # IPython
@@ -161,4 +162,5 @@ cython_debug/
 #.idea/
 
 # Custom
+**/.DS_Store
 .DS_Store
