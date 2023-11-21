@@ -1,11 +1,10 @@
-# DS_Jupyter
+# داده‌ساختارها و مبانی الگوریتم‌ها
+محتوای دوره‌ی داده‌ساختارها و مبانی الگوریتم‌ها
+.
+این دوره برای دانشجویان کارشناسی مهندسی کامپیوتر دانشگاه صنعتی شریف ارائه گردیده است. محتوای Jupyter با زبان برنامه‌نویسی پایتون است.
 
-A course for B.Sc. students, Computer Engineering Department, Sharif University of Technology.
+برای دسترسی به ویدئوهای این دوره می‌توانید به یکی از دو آدرس زیر بروید:
+* [مکتب‌خونه](https://maktabkhooneh.org/course/داده-ساختارها-و-مبانی-الگوریتم-ها-mk376/)
+* [درس‌افزار دانشگاه صنعتی شریف](https://ocw.sharif.edu/course/id/272)
 
-The course is instructed in Persian (Farsi) language.
-
-All course materials (Slides, Jupyter Notebooks, Theory and Practical Assignments, Projects, etc.) are freely available under Creative Commons BY license.
-
-# Copyright Notice
-
-All materials are provided under Creative-Commons BY license. This course is crowd-sourced by a group of volunteer university students. If you noticed any copyright violation in texts, figures, etc., please report it by sending an email to sharifi@sharif.edu.
+تمامی محتوای این دوره و ویدئوها رایگان است. شما می‌توانید به دل‌خواه خود آن را تغییر دهید و بازنشر کنید. پیشنهاد می‌شود در هنگام بازنشر به این نشانی پیوند دهید.
