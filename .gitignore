@@ -164,3 +164,12 @@ cython_debug/
 # Custom
 **/.DS_Store
 .DS_Store
+
+# Exclude TeX auxiliary files in all directories
+**/*.synctex.gz
+**/*.aux
+#**/*.out
+**/*.log
+
+# Exclude macOS icon file in all directories
+**/Icon\r
